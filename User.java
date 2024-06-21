@@ -1,4 +1,4 @@
-//User ID
-//list of followers by ID
-//list of people user follows by ID
-//news feed list containing messages
+//UserID
+//list<User> followers
+//list<User> following 
+//list<string> Comms
