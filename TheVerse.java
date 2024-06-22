@@ -35,7 +35,7 @@ import java.util.ArrayList;
         frame.pack();
         frame.setVisible(true);
     }
-*/
+
   //add in functions
   //add in UI components(buttons, text input)
 
