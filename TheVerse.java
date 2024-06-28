@@ -16,17 +16,26 @@ class User {
         this.following = new ArrayList<>();
         this.comms = new ArrayList<>();
     }
+    //get id, followers, following. comms
+    //add followers and following
+    //post a comm(tweet)
+    //end user class
 }
     
-//get id, followers, following. comms
-//add followers and following
-//post a comm(tweet)
-//end user class
-
 
 //User Group Class
-//class Group {}
-//above is a placeholder for once I'm done working on the class
+class Group {
+    private String id;
+    private List<User> users;
+
+    public Group(String id) {
+        this.id = id;
+        this.users = new ArrayList<>();
+    }
+    //get id, users
+    //add users
+}
+
 
 
 //Main Class for application
