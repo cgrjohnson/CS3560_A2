@@ -47,6 +47,15 @@ class TheVerse {
           this.treeModel = new DefaultTreeModel(rootNode);
     }
 
+    //add User, group
+    //display control panel
+    //user buttons: user, group
+    //viewing buttons: user, group, comms, likes
+
+    //counting: users, groups, comms, likes
+
+    //user view
+
   //add in functions
   //add in UI components(buttons, text input)
 
