@@ -64,5 +64,3 @@ public static void main(String[] args) {                              //displays
   theVerse.displayControlPanel();
 }
 }
-
-  
