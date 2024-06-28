@@ -45,10 +45,10 @@ class TheVerse {
   //add in UI components(buttons, text input)
 
 
-/*public static void main(String[] args) {                              //displays control panel when you run prog
+public static void main(String[] args) {                              //displays control panel when you run prog
   TheVerse theVerse = new TheVerse();
   theVerse.displayControlPanel();
-*/
+
 //}
 //}
 
