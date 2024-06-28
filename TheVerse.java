@@ -4,8 +4,24 @@ import java.util.List;
 import java.util.ArrayList;
 
 //User Class
-//class User {}
-//above is a placeholder for once I'm done working on the class
+class User {
+    private String id;
+    private List<User> followers;
+    private List<User> following;
+    private List<String> comms;
+
+    public User(String id) {
+        this.id = id;
+        this.followers = new ArrayList<>();
+        this.following = new ArrayList<>();
+        this.comms = new ArrayList<>();
+    }
+}
+    
+//get id, followers, following. comms
+//add followers and following
+//post a comm(tweet)
+//end user class
 
 
 //User Group Class
