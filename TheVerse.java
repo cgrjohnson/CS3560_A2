@@ -22,7 +22,6 @@ class User {
     //end user class
 }
     
-
 //User Group Class
 class Group {
     private String id;
@@ -36,14 +35,12 @@ class Group {
     //add users
 }
 
-
-
 //Main Class for application
 class TheVerse {
     private Groop rootGroup;                                        //for the Root Group containing everything
     private DefaultMutableTreeNode rootNode;                        //Node for Root Group
     private DefaultTreeModel treeModel                              //Tree model for The Verse
-*/
+
     public TheVerse() {                                             //public class TheVerse
           this.rootGroup = new Group("Root");                      
           this.rootNode = new DefaultMutableTreeNode(rootGroup);   
@@ -53,12 +50,10 @@ class TheVerse {
   //add in functions
   //add in UI components(buttons, text input)
 
-
 public static void main(String[] args) {                              //displays control panel when you run prog
   TheVerse theVerse = new TheVerse();
   theVerse.displayControlPanel();
-
-//}
-//}
+}
+}
 
   
