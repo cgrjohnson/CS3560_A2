@@ -41,8 +41,12 @@ class User {
         followings.add(following);
     }
     //post a comm(tweet)
-    //end user class
-}
+    public void postAComm(String comm {
+        comms.add(comm);
+        for (User follower : followers) {
+            follower.getComms().add(comm);
+        }
+    }
     
 //User Group Class
 class Group {
