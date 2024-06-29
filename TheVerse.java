@@ -47,6 +47,9 @@ class User {                                //declare variables/lists for class
             follower.getComms().add(comm);
         }
     }
+    //validate unique idea, parse string id
+    //time of creation long var
+    //lastUpdated to refresh on each post of comm
     
 //User Group Class
 class Group {
@@ -70,6 +73,8 @@ class Group {
     public List<User> getUsers(){
         return users;
     }
+    //time of creation long var
+    //validate group id, parse string id
 }
 
 //Main Class for application
@@ -141,9 +146,9 @@ class TheVerse {
 
     //ASSIGNMENT 3
     //User/Group ID verification
-    //Add creation time attribute to User and Group
-    //add last update time attribute to User
-    //find the last updated User
+    //Add creation time attribute to User and Group(in User and Group class)
+    //add last update time attribute to User(in User class)
+    //find the last updated User(user UI should have last user to update visible, button?)
 
 public static void main(String[] args) {                              //displays control panel when you run prog
   TheVerse theVerse = new TheVerse();
