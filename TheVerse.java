@@ -4,19 +4,19 @@ import java.util.List;
 import java.util.ArrayList;
 
 //User Class
-class User {
+class User {                                //declare variables/lists for class
     private String id;
     private List<User> followers;
     private List<User> followings;
     private List<String> comms;
 
-    public User(String id) {
+    public User(String id) {                //initialize class var and lists
         this.id = id;
         this.followers = new ArrayList<>();
         this.following = new ArrayList<>();
         this.comms = new ArrayList<>();
     }
-    //get id
+    //get id                            //getter methods for class var/lists
     public String getId(){
         return id;
     }
@@ -40,7 +40,7 @@ class User {
     public void addFollowing(User following) {
         followings.add(following);
     }
-    //post a comm(tweet)
+    //post a comm(tweet)                    //"tweet" capability, post to followers
     public void postAComm(String comm {
         comms.add(comm);
         for (User follower : followers) {
