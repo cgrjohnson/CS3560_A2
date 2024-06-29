@@ -57,8 +57,19 @@ class Group {
         this.id = id;
         this.users = new ArrayList<>();
     }
-    //get id, users
+
+    //get id
+    public String getId(){
+        return id;
+    }
     //add users
+    public void addUser(User user){
+        users.add(user);
+    }
+    //get users
+    public List<User> getUsers(){
+        return users;
+    }
 }
 
 //Main Class for application
