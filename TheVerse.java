@@ -132,10 +132,18 @@ class TheVerse {
     
     //create int to count number of liked comms
     
-    //user view
+    //user view UI
+    //Follow JButton
+    //Post Comm JButton
+    //event listeners for user view UI
 
-  //add in functions
-  //add in UI components(buttons, text input)
+    //search for users and for groups by unique ID
+
+    //ASSIGNMENT 3
+    //User/Group ID verification
+    //Add creation time attribute to User and Group
+    //add last update time attribute to User
+    //find the last updated User
 
 public static void main(String[] args) {                              //displays control panel when you run prog
   TheVerse theVerse = new TheVerse();
