@@ -84,13 +84,54 @@ class TheVerse {
           this.treeModel = new DefaultTreeModel(rootNode);
     }
 
-    //add User, group
-    //display control panel
-    //user buttons: user, group
-    //viewing buttons: user, group, comms, likes
+    //public void addUser, add User
+    //public void addGroup, add group
+    //public void displayControlPanel, display control panel
+    
+    //Control Panel UI
+    //Create New User, JButton
+    //Create New Group, JButton
+    //Create Show User Count, JButton
+    //Create Show Group Count, JButton
+    //Create Show Comms Count, JButton
+    //Create Show Liked Comms Count, JButton
 
-    //counting: users, groups, comms, likes
+    //after creating elements, add event listeners for
+    //"addActionListener" for JButtons(new user/group, show ... 
+    //will need contraints for Control panel UI
 
+    //counting number of Users
+    private int countTotalUsers(Group group) {
+        int count = group.getUsers().size();
+        for (Group subGroup : group.getUsers()){
+            count += countTotalUsers(subGroup);
+        }
+        return count;
+    }
+
+    //counting number of Groups
+    private int countTotalGroups(Group group) {
+        int count = group.getUsers().size();
+        for (Group subGroup : group.getUsers()){
+            count += countTotalGroups(subGroup);
+        }
+        return count;
+    }
+    
+    //counting number of comms 
+    private int countTotalComms(Group group) {
+        int count = 0;
+        for (User user : group.getUsers()){
+            count += user.getComms().size();
+        }
+        for (Group subGroup : group.getUsers()){
+            count += countTotalComms(subGroup);
+        }
+        return count;
+    }
+    
+    //create int to count number of liked comms
+    
     //user view
 
   //add in functions
