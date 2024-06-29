@@ -1,6 +1,10 @@
 # CS3560_A2
 Assignment 2 for CS 3560 Summer 2024
 
+Finished as much as I could, condensed course was a bit bigger of a challenge than anticipated
+Looking forward to finishing this project using a Firefly(Sci-Fi show) theme after submission(do not want to impede grading
+Thank you for your guidance this term!
+
 In this programming assignment, you will build a Java-based Mini Twitter with graphical user interface (GUI) using Java Swing. This is going to be a pure desktop program, without web or mobile components. The goal of this assignment is to let you experience how to apply design patterns to build extensible software systems.
 
 The basic functions of the system include:
