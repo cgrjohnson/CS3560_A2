@@ -7,7 +7,7 @@ import java.util.ArrayList;
 class User {
     private String id;
     private List<User> followers;
-    private List<User> following;
+    private List<User> followings;
     private List<String> comms;
 
     public User(String id) {
@@ -16,8 +16,30 @@ class User {
         this.following = new ArrayList<>();
         this.comms = new ArrayList<>();
     }
-    //get id, followers, following. comms
-    //add followers and following
+    //get id
+    public String getId(){
+        return id;
+    }
+    //get followers
+    public List<User> getFollowers(){
+        return followers;
+    }
+    //get following
+    public List<User> getFollowing(){
+        return following;
+    }
+    //get comms
+    public List<String> getComms(){
+        return comms;
+    }
+    //add followers 
+    public void addFollower(User follower) {
+        followers.add(follower);
+    }
+    //add following
+    public void addFollowing(User following) {
+        followings.add(following);
+    }
     //post a comm(tweet)
     //end user class
 }
